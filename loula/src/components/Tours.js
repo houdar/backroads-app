@@ -1,3 +1,8 @@
+import tourOne from "../images/tour-1.jpeg";
+import tourTwo from "../images/tour-2.jpeg";
+import tourThree from "../images/tour-3.jpeg";
+import tourFour from "../images/tour-4.jpeg";
+
 const Tours = () => {
   return (
     <section className="section" id="tours">
@@ -10,11 +15,7 @@ const Tours = () => {
       <div className="section-center featured-center">
         <article className="tour-card">
           <div className="tour-img-container">
-            <img
-              src="https://github.com/john-smilga/react-course-v3/blob/main/02-backroads-project/backroads-html/images/tour-1.jpeg?raw=true"
-              className="tour-img"
-              alt=""
-            />
+            <img src={tourOne} className="tour-img" alt="" />
             <p className="tour-date">august 26th, 2020</p>
           </div>
           <div className="tour-info">
@@ -41,11 +42,7 @@ const Tours = () => {
 
         <article className="tour-card">
           <div className="tour-img-container">
-            <img
-              src="https://github.com/john-smilga/react-course-v3/blob/main/02-backroads-project/backroads-html/images/tour-2.jpeg?raw=true"
-              className="tour-img"
-              alt=""
-            />
+            <img src={tourTwo} className="tour-img" alt="" />
             <p className="tour-date">october 1th, 2020</p>
           </div>
           <div className="tour-info">
@@ -70,11 +67,7 @@ const Tours = () => {
 
         <article className="tour-card">
           <div className="tour-img-container">
-            <img
-              src="https://github.com/john-smilga/react-course-v3/blob/main/02-backroads-project/backroads-html/images/tour-3.jpeg?raw=true"
-              className="tour-img"
-              alt=""
-            />
+            <img src={tourThree} className="tour-img" alt="" />
             <p className="tour-date">september 15th, 2020</p>
           </div>
           <div className="tour-info">
@@ -99,7 +92,7 @@ const Tours = () => {
 
         <article className="tour-card">
           <div className="tour-img-container">
-            <img src="../images/tour-4.jpeg" className="tour-img" alt="rg" />
+            <img src={tourFour} className="tour-img" alt="rg" />
             <p className="tour-date">december 5th, 2019</p>
           </div>
           <div className="tour-info">

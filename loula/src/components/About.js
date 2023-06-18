@@ -1,3 +1,4 @@
+import about from "../images/about.jpeg";
 const About = () => {
   return (
     <section className="section" id="about">
@@ -9,11 +10,7 @@ const About = () => {
 
       <div className="section-center about-center">
         <div className="about-img">
-          <img
-            src="https://github.com/john-smilga/react-course-v3/blob/main/02-backroads-project/backroads-html/images/about.jpeg?raw=true"
-            className="about-photo"
-            alt="awesome beach"
-          />
+          <img src={about} className="about-photo" alt="awesome beach" />
         </div>
         <article className="about-info">
           <h3>explore the difference</h3>

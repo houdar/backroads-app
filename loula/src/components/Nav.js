@@ -1,9 +1,11 @@
+import logo from "../images/logo.svg";
+
 const Nav = () => {
   return (
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <img src="../images/logo.svg" />
+          <img src={logo} />
           <button type="button" className="nav-toggle" id="nav-toggle">
             <i className="fas fa-bars"></i>
           </button>
